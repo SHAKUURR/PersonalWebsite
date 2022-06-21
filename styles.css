@@ -1,0 +1,110 @@
+body{
+    font-family: "Helvetica,", Arial, Helvetica, sans-serif;
+    background-image: url("./images/grayback.webp");
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+ul{
+    z-index: 9;
+    list-style-type: none;
+    position:fixed;
+    margin:0;
+    height: 70px;
+    padding:0;
+    background: rgb(46, 45, 45);
+    width:100%;
+    top:0;
+    overflow: hidden;
+}
+
+li{
+    float:left;
+    display: block;
+    margin:10px;
+    color:white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+li:hover{
+    background-color: black;
+}
+
+.image{
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid black;
+    opacity: 1;
+}
+
+.text{
+    position:relative;
+    right:50px;
+    bottom:100px;
+}
+
+.title{
+    position:relative;
+    right: 80px;
+    bottom:100px;
+}
+
+.icons{
+    height:20px;
+    position:relative;
+    right:10px;
+    top:5px;
+}
+
+.contactInfo{
+    margin: 30px;
+}
+
+.header{
+    padding: 180px;
+    background: rgba(255, 255, 255,1);
+    margin: 100px;
+    font-size:15px;
+    border: 5px solid black;
+    border-radius:10px;
+}
+
+.headerv2{
+    padding: 100px;
+    background: rgba(255,255,255,1);
+    margin:100px;
+    font-size: 15px;
+    border: 5px solid black;
+    border-radius:10px;
+}
+
+.headertext{
+    float:right;
+    width:600px;
+    height:200px;
+    text-align:left;
+}
+
+.resumetext{
+    float:left;
+    padding: 100px;
+    margin:100px;
+    width: 200px;
+    height:50px;
+    background: rgba(255,255,255,1);
+    border: 5px solid black;
+    border-radius:10%;
+}
+
+
+
+.resume{
+    float:right;
+    position:relative;
+    right:150px;
+    bottom:20px;
+    border: 5px solid black;
+}
