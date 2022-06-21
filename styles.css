@@ -87,29 +87,3 @@ li:hover{
     height:200px;
     text-align:left;
 }
-
-.resumetext{
-    float:left;
-    padding: 100px;
-    margin:100px;
-    width: 200px;
-    height:10px;
-    background: rgba(255,255,255,1);
-    border: 5px solid black;
-    border-radius:15px;
-}
-
-.resumetitle{
-    position:relative;
-    bottom:60px;
-    right:85px;
-    width:400px;
-}
-
-.resume{
-    float:right;
-    position:relative;
-    right:150px;
-    bottom:20px;
-    border: 5px solid black;
-}
