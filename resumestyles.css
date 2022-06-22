@@ -11,9 +11,10 @@
 }
 
 .resumetitle{
+    
     position:relative;
-    bottom:60px;
-    right:85px;
+    top:250px;
+    left:100px;
     width:400px;
 }
 
