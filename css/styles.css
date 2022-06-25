@@ -86,11 +86,11 @@ ul{
 }
 
 .middle{
-    position:absolute;
-    height:400px;
+    position:relative;
+    transform:translateY(75%);
+    transform:translateX(75%);
     width:600px;
-    top:275px;
-    left:430px;
+    height:400px;
 }
 
 .logogroup{
