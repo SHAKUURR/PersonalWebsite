@@ -86,11 +86,13 @@ ul{
 }
 
 .middle{
-    position:relative;
-    transform:translateY(75%);
-    transform:translateX(75%);
+    position:absolute;
+    top:50%;
+    left:50%;
     width:600px;
     height:400px;
+    margin-left:-300px;
+    margin-top:-100px;
 }
 
 .logogroup{
